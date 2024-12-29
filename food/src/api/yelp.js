@@ -3,6 +3,6 @@ import axios from "axios";
 export default axios.create({
   baseURL: "https://api.yelp.com/v3/businesses",
   headers: {
-    Authorization: `Bearer ${process.env.YELP_KEY}`,
+    Authorization: `Bearer ${process.env.REACT_NATIVE_YELP_KEY}`,
   },
 });
